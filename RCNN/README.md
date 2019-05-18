@@ -29,7 +29,7 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
 
 # 程序问题
 1、由于数据集小的原因，在微调时候并没有像论文一样按一个bitch32个正样本，128个负样本输入，感觉正样本过少；   
-2、还没有懂最后是怎么给区域打分的，所以没有NMS，待续；   
+2、还没有懂最后是怎么给区域打分的，所以没有NMS，待续；  
 3、对选择的区域是直接进行缩放的；   
 4、由于数据集合论文采用不一样，但是微调和训练SVM时采用的IOU阈值一样，有待调参。
 
@@ -41,7 +41,7 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
    https://github.com/edwardbi/DeepLearningModels/tree/master/RCNN      
 3、博客参考：     
    http://blog.csdn.net/u011534057/article/details/51218218     
-   http://blog.csdn.net/u011534057/article/details/51218250  
-4、 Clone from:
-   https://github.com/yangxue0827/RCNN        
+   http://blog.csdn.net/u011534057/article/details/51218250  
+4、Clone from：
+   https://github.com/yangxue0827/RCNN        
 
