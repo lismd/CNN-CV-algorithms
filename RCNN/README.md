@@ -42,6 +42,6 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
 3、博客参考：     
    http://blog.csdn.net/u011534057/article/details/51218218     
    http://blog.csdn.net/u011534057/article/details/51218250  
-4. Clone from:
+4、 Clone from:
    https://github.com/yangxue0827/RCNN        
 
