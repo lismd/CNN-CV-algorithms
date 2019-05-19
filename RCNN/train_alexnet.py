@@ -14,8 +14,8 @@ import cv2
 
 
 def load_data(datafile, num_class, save=False, save_path='dataset.pkl'):
-    fr = codecs.open(datafile, 'r', 'utf-8')
-    train_list = fr.readlines()
+    fr = codecs.open(datafile, 'r', 'utf-8')#https://blog.csdn.net/weay/article/details/80946152
+    train_list = fr.readlines()#读取所有的行到数组
     labels = []
     images = []
     for line in train_list:
@@ -31,13 +31,13 @@ def load_data(datafile, num_class, save=False, save_path='dataset.pkl'):
         label[index] = 1
         labels.append(label)
     if save:
-        pickle.dump((images, labels), open(save_path, 'wb'))
+        pickle.dump((images, labels), open(save_path, 'wb')) #序列化对象，将对象obj保存到文件file中
     fr.close()
     return images, labels
 
 
 def load_from_pkl(dataset_file):
-    X, Y = pickle.load(open(dataset_file, 'rb'))
+    X, Y = pickle.load(open(dataset_file, 'rb'))  #反序列化对象，将文件中的数据解析为一个python对象
     return X,Y
 
 
