@@ -35,4 +35,17 @@ python test_frcnn_kitti.py
 ```
 你也可以使用`-p`来预测特定的单个图像，或者发送一个包含很多图像的路径，我们的程序会自动识别出来。
 
+## Code Description
+
+Please see below notes about code:
+```
+1. requirements.txt list the env used.    
+2. config.pickle && keras_frcnn/config.py ---- configurations    
+3. generate_simple_kitti_anno_file.py ---- load all kitti original label file into a single file
+3. train_frcnn_kitti.py ---- train on kitti data set    
+4. predict_kitti.py ---- test on kitti data set  
+5. detector.py  && main.py ---- is used to test the already trained model.   
+6. code in folder keras_frcnn ---- these are helper util code for fast-rcnn algorithm  
+```
+
 **这就是全部，帮助你享受！**
