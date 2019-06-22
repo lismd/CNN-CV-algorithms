@@ -4,7 +4,7 @@
 
 ### 1.Introduction
 
-This is tensorflow implementation of the YOLO:Real-Time Object Detection [YOLO v1] cloned from https://github.com/gliese581gg/YOLO_tensorflow
+This is tensorflow implementation of the YOLO:Real-Time Object Detection [YOLO v1] cloned from https://github.com/gliese581gg/YOLO_tensorflow and https://github.com/xiaohu2015/DeepLearning_tutorials
 
 It can only do predictions using pretrained YOLO_small & YOLO_tiny network for now.
 
