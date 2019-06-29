@@ -151,3 +151,4 @@ The code to evaluate detection results can be found at https://github.com/experi
 ## Copyright
 
 See [LICENSE](LICENSE) for details. Clone from: https://github.com/experiencor/keras-yolo2
+You can also refer to the darknet in YOLO V2 in https://github.com/PaulChongPeng/darknet to see the details such as k_means_yolo.py
